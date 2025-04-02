@@ -1,7 +1,7 @@
 import random
 import time
-aleatorio = random.uniform(1, 100)
-numero = input("Escolha um número de 1 a 100.")
+aleatorio = int(random.uniform(1, 100))
+numero = int(input("Escolha um número de 1 a 100."))
 while numero != aleatorio:
     input("Escolha um número de 1 a 100.")
     if numero != aleatorio:
